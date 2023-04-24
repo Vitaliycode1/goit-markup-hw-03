@@ -1,0 +1,219 @@
+:root {
+  /* Fonts */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Color back-ground*/
+  --primary-bg-color: #ffffff;
+  --accent-bg-cl: #2e2f42;
+  --secondary-bg-color: #f4f4fd;
+  /* Text color */
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --accent-txt-cl: #4d5ae5;
+  --light-txt-cl: #404bbf;
+  /* Btn Color */
+  --primary-btn-color: #4d5ae5;
+  --light-btn-cl: #404bbf;
+  --secondary-btn-color: #404bbf;
+  --accent-btn-cl: #f4f4fd;
+  --primary-btn-text-cl: #ffffff;
+  --accent-btn-txt-cl: #4d5ae5;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+}
+.link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+.logo-link,
+.logo-world {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--accent-txt-cl);
+}
+.logo-world {
+  text-decoration: none;
+  line-height: 1.17;
+  color: var(--secondary-text-color);
+}
+
+/* reset start */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.title {
+  font-family: inherit;
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+/* nav */
+.header-nav-link {
+  color: var(--secondary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+}
+.header-contacts {
+  font-style: normal;
+}
+.contscts-link {
+  color: var(--primary-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.contscts-link:hover,
+.contscts-link:focus {
+  color: var(--light-txt-cl);
+}
+.header-nav-link:active {
+  text-decoration: underline;
+  color: var(--light-txt-cl);
+}
+
+/* hero section */
+.hero {
+  background-color: var(--accent-bg-cl);
+}
+.hero .title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  text-transform: none;
+  color: #ffffff;
+}
+.hero .btn {
+  color: var(--primary-btn-text-cl);
+  background-color: var(--primary-btn-color);
+}
+.hero .btn:hover,
+.hero .btn:focus {
+  color: var(--primary-btn-text-cl);
+  background-color: var(--light-btn-cl);
+}
+
+.hero .btn:active {
+  color: var(--light-btn-cl);
+}
+
+/* Strategy section */
+.subtitle {
+  color: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.subtitle-desc {
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+/* Team section */
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.team-list-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* footer section */
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  background-color: var(--accent-bg-cl);
+}
+.fotter-link {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--accent-txt-cl);
+}
+.studio-world {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-desc {
+  position: absolute;
+  font-family: inherit;
+  color: #f4f4fd;
+}
+
+/* Filtr btn */
+.filtr .btn {
+  background-color: var(--accent-btn-cl);
+  color: var(--accent-btn-txt-cl);
+}
+.filtr .btn:hover,
+.filtr .btn:focus {
+  background-color: var(--light-btn-cl);
+  color: var(--primary-btn-text-cl);
+}
+.filtr .btn:active {
+  background-color: var(--light-btn-cl);
+  color: var(--primary-btn-text-cl);
+}

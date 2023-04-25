@@ -92,6 +92,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -119,6 +120,18 @@ body {
   color: var(--light-txt-cl);
 }
 
+.header {
+  background-color: #ccc;
+}
+.container {
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 /* hero section */
 .hero {
   background-color: var(--accent-bg-cl);
@@ -133,6 +146,9 @@ body {
 .hero .btn {
   color: var(--primary-btn-text-cl);
   background-color: var(--primary-btn-color);
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .hero .btn:hover,
 .hero .btn:focus {
@@ -171,8 +187,6 @@ body {
 
 /* footer section */
 .footer {
-  position: absolute;
-  width: 1440px;
   height: 312px;
   background-color: var(--accent-bg-cl);
 }
@@ -207,6 +221,9 @@ body {
 .filtr .btn {
   background-color: var(--accent-btn-cl);
   color: var(--accent-btn-txt-cl);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 .filtr .btn:hover,
 .filtr .btn:focus {

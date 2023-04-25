@@ -39,6 +39,8 @@ body {
   text-decoration: none;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -84,6 +86,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
   text-transform: capitalize;
 }
 .btn {
@@ -134,7 +138,10 @@ body {
 
 /* hero section */
 .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--accent-bg-cl);
+  text-align: center;
 }
 .hero .title {
   font-size: 56px;
@@ -142,6 +149,7 @@ body {
   text-align: center;
   text-transform: none;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 .hero .btn {
   color: var(--primary-btn-text-cl);
@@ -161,21 +169,39 @@ body {
 }
 
 /* Strategy section */
+.strategy {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .subtitle {
   color: inherit;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  padding: 0px;
+  margin: 0px;
 }
+.subtitle {
+  margin-bottom: 8px;
+}
+
 .subtitle-desc {
   font-weight: 400;
   color: var(--primary-text-color);
+  padding: 0px;
+  margin: 0px;
 }
+/* Tools section */
+.tools {
+  padding-bottom: 120px;
+}
+
 /* Team section */
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--secondary-bg-color);
 }
 .team-list-item {
@@ -184,10 +210,16 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.team-item-container {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
 
 /* footer section */
 .footer {
-  height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   background-color: var(--accent-bg-cl);
 }
 .fotter-link {
@@ -201,6 +233,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--accent-txt-cl);
+  display: inline-block;
+  padding-bottom: 16px;
 }
 .studio-world {
   font-weight: 800;
@@ -212,8 +246,8 @@ body {
   color: #f4f4fd;
 }
 .footer-desc {
-  position: absolute;
-  font-family: inherit;
+  margin: 0px;
+  padding: 0px;
   color: #f4f4fd;
 }
 
@@ -224,6 +258,7 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+  min-width: 69px;
 }
 .filtr .btn:hover,
 .filtr .btn:focus {

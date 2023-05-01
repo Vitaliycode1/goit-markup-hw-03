@@ -139,7 +139,7 @@ img {
   display: flex;
 }
 .header-nav-item {
-  margin-left: 40px;
+  margin-right: 40px;
 }
 .header-nav-list:last-child {
   margin: 0;

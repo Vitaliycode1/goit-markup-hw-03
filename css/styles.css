@@ -138,7 +138,7 @@ img {
 .header-nav-list {
   display: flex;
 }
-.header-nav-list .header-nav-item + .header-nav-item {
+.header-nav-item + .header-nav-item {
   margin-left: 40px;
 }
 .header-nav-list:last-child {
@@ -168,7 +168,7 @@ img {
   display: flex;
 }
 
-.contacts-list .contacts-item + .contacts-item {
+.contacts-item + .contacts-item {
   margin-left: 40px;
 }
 .contacts-item:last-child {

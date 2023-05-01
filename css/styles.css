@@ -279,14 +279,16 @@ img {
 
 .team-item-container {
   padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
   margin: 0;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
 /* footer section */
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+  margin: 0 auto;
   background-color: var(--accent-bg-cl);
 }
 .fotter-link {
@@ -320,12 +322,28 @@ img {
 }
 
 /* Filtr btn */
+.filtr {
+  padding-bottom: 120px;
+  padding-top: 96px;
+  margin: 0 auto;
+}
 .filtr .btn {
+  padding: 12px 24px;
   background-color: var(--accent-btn-cl);
-  color: var(--accent-btn-txt-cl);
+
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  color: var(--accent-btn-txt-cl);
+  text-align: center;
 }
+.filtr-btn-list {
+  display: flex;
+  margin-bottom: 72px;
+  justify-content: center;
+  gap: 24px;
+  padding: 0;
+}
+
 .filtr .btn:hover,
 .filtr .btn:focus {
   background-color: var(--light-btn-cl);
@@ -334,4 +352,13 @@ img {
 .filtr .btn:active {
   background-color: var(--light-btn-cl);
   color: var(--primary-btn-text-cl);
+}
+.prject-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.project-container {
+  padding: 32px 16px;
 }

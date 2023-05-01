@@ -141,7 +141,7 @@ img {
 .header-nav-list .header-nav-item + .header-nav-item {
   margin-left: 40px;
 }
-.header-nav-item:last-child {
+.header-nav-list:last-child {
   margin: 0;
 }
 

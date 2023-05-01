@@ -198,9 +198,13 @@ img {
   color: #ffffff;
 }
 .hero .btn {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 
   color: var(--primary-btn-text-cl);
   background-color: var(--primary-btn-color);
@@ -224,8 +228,11 @@ img {
 .strategy-list-item {
   width: 264px;
 }
-.strategy-list .strategy-list-item + .strategy-list-item {
-  margin-left: 24px;
+.strategy-list-item {
+  margin-right: 24px;
+}
+.strategy-list-item:last-child {
+  margin-right: 0;
 }
 
 .strategy {
@@ -260,6 +267,7 @@ img {
 .tools-list {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 /* Team section */
 .team {

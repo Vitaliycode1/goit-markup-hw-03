@@ -353,7 +353,7 @@ img {
   background-color: var(--light-btn-cl);
   color: var(--primary-btn-text-cl);
 }
-.prject-list {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;

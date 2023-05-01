@@ -114,6 +114,9 @@ img {
   margin: 0px;
   padding: 0px;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 /* nav */
 .header-flex {
   display: flex;
@@ -121,6 +124,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-nav-link {
   display: block;
@@ -136,6 +140,9 @@ img {
 }
 .header-nav-list .header-nav-item + .header-nav-item {
   margin-left: 40px;
+}
+.header-nav-item:last-child {
+  margin: 0;
 }
 
 .header-nav-link:hover,
@@ -164,7 +171,9 @@ img {
 .contacts-list .contacts-item + .contacts-item {
   margin-left: 40px;
 }
-
+.contacts-item:last-child {
+  margin: 0;
+}
 .contscts-link {
   display: block;
   padding-top: 24px;

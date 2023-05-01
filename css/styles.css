@@ -395,5 +395,6 @@ img {
 .project-container {
   padding: 32px 16px;
   margin: 0;
+  border-top: none;
   border: 1px solid #e7e9fc;
 }

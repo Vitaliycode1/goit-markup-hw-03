@@ -44,12 +44,14 @@ body {
 
   list-style: none;
 }
+.logo-link {
+  margin-right: 76px;
+}
 
 .logo-link,
 .logo-world {
   display: flex;
   margin-left: auto;
-  margin-right: 76px;
   align-items: center;
 
   font-family: var(--secondary-font);
